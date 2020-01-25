@@ -52,6 +52,7 @@ for(let i =0; i<deleteButtons.length; i++){
 
 function deleteTHIS(e){
   e.target.parentElement.parentElement.remove();
+  calcAll();
 }
 
 
